@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*we should divide 10(our desired px) by 16* this is because we should allow users 
+  to set the font sizes for accessibility reasons,this defines what 1rem is*/
+}
+
+body {
+  box-sizing: border-box;
+}
